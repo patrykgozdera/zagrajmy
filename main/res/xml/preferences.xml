@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="Lokalizacja początkowa">
+
+        <EditTextPreference
+            android:key="latitude"
+            android:summary="Ustaw odpowiednią koordynatę"
+            android:title="Szerokość geograficzna" />
+
+        <EditTextPreference
+            android:key="longitude"
+            android:summary="Ustaw odpowiednią koordynatę"
+            android:title="Długość geograficzna" />
+
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="O aplikacji">
+
+        <Preference
+            android:selectable="false"
+            android:summary="Dostarczamy Ci narzędzie wspomagające organizowanie aktywności fizycznych. Służymy pomocą!" />
+
+        <Preference
+            android:summary="1.0"
+            android:title="Wersja aplikacji" />
+
+        <!-- preference opens url in browser -->
+        <Preference
+            android:summary="Najczęściej zadawane pytania"
+            android:title="FAQ">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://firebase.google.com/support/faq/" />
+        </Preference>
+
+        <Preference android:title="Polityka prywatności">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://firebase.google.com/support/privacy/" />
+        </Preference>
+
+        <Preference
+            android:summary="patryk.gozdera@gmail.com"
+            android:title="E-mail administratora systemu">
+        </Preference>
+    </PreferenceCategory>
+
+</PreferenceScreen>

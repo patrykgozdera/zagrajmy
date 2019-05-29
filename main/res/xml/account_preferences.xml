@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="Konto">
+
+        <EditTextPreference
+            android:key="fName"
+            android:title="Imię" />
+
+        <EditTextPreference
+            android:key="lName"
+            android:title="Nazwisko" />
+
+        <EditTextPreference
+            android:key="uEmail"
+            android:title="Adres e-mail" />
+
+        <EditTextPreference
+            android:key="uPhone"
+            android:title="Numer telefonu" />
+
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Zarządzanie danymi">
+
+        <Preference
+            android:icon="@drawable/ic_data_delete"
+            android:key="deletePref"
+            android:title="Usuń stworzone aktywności">
+        </Preference>
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

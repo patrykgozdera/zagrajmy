@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#21683a</color>
+    <color name="colorPrimaryDark">#01541e</color>
+    <color name="colorAccent">#02a33a</color>
+    <color name="colorCustomApp">#294239</color>
+    <color name="white">#ffffff</color>
+    <color name="colorFragmentHome">#a5eae8</color>
+    <color name="colorFragmentHome2">#A4EECD</color>
+</resources>

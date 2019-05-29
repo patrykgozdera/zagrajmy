@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Zagrajmy!</string>
+    <string name="new_event_title">Wprowadź niezbędne informacje dotyczące rozgrywki:</string>
+    <string name="event_type1">Piłka nożna</string>
+    <string name="event_type2">Siatkówka</string>
+    <string name="event_type3">Quidditch</string>
+    <string name="event_type4">Frisbee</string>
+    <string name="nb_of_people">Oczekiwana liczba osób*</string>
+    <string name="location">Lokalizacja*</string>
+    <string name="date_time">Data*</string>
+    <string name="description">Opis</string>
+    <string name="add">Dodaj</string>
+    <string name="discipline">Dyscyplina</string>
+    <string name="fill_in_the_field"><font size="14">Uzupełnij pole</font></string>
+    <string name="dostepne_aktywnosci">Dostępne aktywności:</string>
+    <string name="route_label">Trasa</string>
+</resources>
